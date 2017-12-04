@@ -356,7 +356,7 @@ void print_ascii_tree(Tree *t) {
 
 
 //driver routine
-void main() {
+int main() {
     //A sample use of these functions.  Start with the empty tree
     //insert some stuff into it, and then delete it
     Tree *root;
@@ -407,4 +407,6 @@ void main() {
     print_ascii_tree(root);
 
     make_empty(root);
+
+    return 0;
 }
